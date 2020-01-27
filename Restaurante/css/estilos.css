@@ -1,0 +1,139 @@
+.container{
+    max-width: 1050vh;
+}
+
+.contenido-cabecera header{
+    background: url("../imagenes/ms.jpg") no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.contenido-cabecera ul{
+    float: right;
+    word-wrap: wrap;
+    word-spacing: 20px;
+    margin-right: 40px;
+}
+
+.contenido-cabecera a li{
+    display: inline-block;
+    color: beige;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.contenido-cabecera a li:hover{
+    box-shadow: 13px 9px 5px 2px rgba(0,0,0,0.47);
+  
+}
+
+.contenido-cabecera h2{
+    color: beige;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: -2px -2px 28px 3px rgba(0,0,0,0.47);
+}
+
+.contenido-parrafo{
+    margin-left: 20px;
+
+}
+
+.contenido-parrafo h2{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+.contenido-parrafo p{
+    text-align: center;
+}
+
+.contenido-servicios{
+    background: #EFFBF2;
+}
+
+.contenido-servicios h2{ 
+    text-align: center;
+    padding: 20px;
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+.contenido-servicios ul li{
+    display: inline-block;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.contenido-servicios img{
+    border-radius: 60px;
+    margin-top: 17px;
+}
+
+.contenido-servicios h4{
+    text-align: center;
+    font-size: 25px;
+}
+
+.pie-pagina footer{
+    margin-top: 40px;
+    padding: 20px;
+    background: #6E6E6E;
+}
+
+.pie-pagina h2{
+    color: beige;
+    text-align: center;
+}
+/*Seccion de la pagina de registro*/
+
+.formulario h2{
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 70px;
+}
+
+.formulario form input{
+    display: inline-block;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid #2ECCFA;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 15px 0px;
+}
+
+.formulario form textarea{
+    display: flex;
+    font-size: 18px;
+    width: 49%;
+    height: 60px;
+    border: 0;
+    border-bottom: 1px solid  #2ECCFA;
+    margin: auto;
+}
+
+.formulario .button{
+    padding: 17px;
+    width: 140px;
+    background: #5882FA;
+    color: beige;
+    border-radius: 12px;
+    font-size: 15px;
+    transition: .3s;
+    margin: auto;
+    margin-bottom: 15%;
+    box-shadow: 3px 10px 19px -1px rgba(0,0,0,0.75);
+}
+
+.formulario .button:hover{
+    background: #5858FA;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+
+
